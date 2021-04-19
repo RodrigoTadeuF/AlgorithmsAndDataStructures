@@ -1,10 +1,10 @@
-package sort;
+package main.sort;
 
 public class Bubblesort {
 
     public static void main(String[] args) {
 
-        // The bubble sort algorithm is a sorting algorithm based
+        // The bubble main.java.sort algorithm is a sorting algorithm based
         // on looking for adjacent indexes and based on that
         // make the "light" ones float
 
@@ -27,6 +27,8 @@ public class Bubblesort {
         for(int i = 0;  i < listOne.length; i++) {
             System.out.print(listOne[i] + " ");
         }
+
+        System.out.println();
 
         for(int j = 0;  j < listTwo.length; j++) {
             System.out.print(listTwo[j] + " ");
